@@ -1,0 +1,18 @@
+{
+    "defaultCommandTimeout": 4000,
+    "execTimeout": 60000,
+    "taskTimeout": 60000,
+    "pageLoadTimeout": 60000,
+    "requestTimeout": 5000,
+    "responseTimeout": 30000,
+    "env":
+    {
+        "url": "https://testlander.co.uk"
+    },
+    "screenshotsFolder": "cypress/screenshots",
+    "videosFolder": "cypress/videos",
+    "videoCompression": false,
+    "video": true,
+    "videoUploadOnPasses": true,
+    "trashAssertsBeforeRun": true 
+}

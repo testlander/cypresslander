@@ -1,0 +1,9 @@
+{
+  "name": "Using fixtures to represent data",
+  "email": "hello@cypress.io",
+  "body": "Fixtures are a great way to mock data for responses to routes",
+  "homePageUrl": "testlander.co.uk",
+  "homePageTitle": "Software Testing Services - TestLander Ltd.",
+  "homePageBannerText": "Welcome to TestLander Ltd. software testing services",
+  "addressInfo": "32 Richmond Road, Kingston Upon Thames, KT2 5ED, London, United Kingdom"
+}
