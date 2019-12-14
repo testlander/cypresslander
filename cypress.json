@@ -7,12 +7,13 @@
     "responseTimeout": 30000,
     "env":
     {
-        "url": "https://testlander.co.uk"
+        "mainUrl": "http://zero.webappsecurity.com/"
     },
     "screenshotsFolder": "cypress/screenshots",
     "videosFolder": "cypress/videos",
     "videoCompression": false,
     "video": true,
     "videoUploadOnPasses": true,
-    "trashAssertsBeforeRun": true 
+    "trashAssertsBeforeRun": true,
+    "testFiles": "**/*.feature"
 }

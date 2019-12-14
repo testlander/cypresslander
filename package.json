@@ -8,7 +8,8 @@
     "test": "node_modules\\.bin\\cypress run",
     "headTest": "npm run test -- --headed",
     "chromeTest": "npm run test -- --browser chrome",
-    "oneTest": "npm run test -- --spec \"cypress/integration/automationdemo/homepage.js\" --headed --browser chrome",
+    "oneTestChrome": "npm run test -- --spec \"cypress/integration/cucumber/hometest.feature\" --headed --browser chrome",
+    "oneTest": "npm run test -- --spec \"cypress/integration/cucumber/hometest.feature\"",
     "oneFolder": "npm run test -- --spec \"cypress/integration/automationdemo/*\" --headed --browser chrome",
     "recordDashboardTest": "npm run test -- --record --key fa423514-5a84-42a7-b6a0-b5e7191bba12 --reporter mochaawesome",
     "groupTests": "npm run test -- --spec \"cypress/integration/01first_test.js, cypress/integration/02second_test.js\" --headed --browser chrome"
@@ -16,6 +17,12 @@
   "author": "Mehmet Mete Boyaci",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^3.6.1"
+    "cypress": "^3.8.0",
+    "cypress-cucumber-preprocessor": "^1.18.0",
+    "cypress-dark": "^1.7.14",
+    "cypress-xpath": "^1.4.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
   }
 }

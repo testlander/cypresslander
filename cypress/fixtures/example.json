@@ -5,5 +5,8 @@
   "homePageUrl": "testlander.co.uk",
   "homePageTitle": "Software Testing Services - TestLander Ltd.",
   "homePageBannerText": "Welcome to TestLander Ltd. software testing services",
-  "addressInfo": "32 Richmond Road, Kingston Upon Thames, KT2 5ED, London, United Kingdom"
+  "addressInfo": "32 Richmond Road, Kingston Upon Thames, KT2 5ED, London, United Kingdom",
+  "homePageTabs": ["Home", "Online Banking", "Feedback"],
+  "onlineBankingFeatures": [" Online Banking", "Checking Account Activity", "Transfer Funds", "My Money Map"],
+  "footerWebLinks": ["Download WebInspect", "Terms of Use", "Contact Micro Focus", "Privacy Statement"]
 }
