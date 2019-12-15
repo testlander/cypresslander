@@ -1,19 +1,20 @@
 {
-    "defaultCommandTimeout": 4000,
-    "execTimeout": 60000,
-    "taskTimeout": 60000,
-    "pageLoadTimeout": 60000,
-    "requestTimeout": 5000,
-    "responseTimeout": 30000,
-    "env":
-    {
-        "mainUrl": "http://zero.webappsecurity.com/"
-    },
-    "screenshotsFolder": "cypress/screenshots",
-    "videosFolder": "cypress/videos",
-    "videoCompression": false,
-    "video": true,
-    "videoUploadOnPasses": true,
-    "trashAssertsBeforeRun": true,
-    "testFiles": "**/*.feature"
+  "defaultCommandTimeout": 4000,
+  "execTimeout": 60000,
+  "taskTimeout": 60000,
+  "pageLoadTimeout": 60000,
+  "requestTimeout": 5000,
+  "responseTimeout": 30000,
+  "ignoreTestFiles": "*.js",
+  "env": {
+    "mainUrl": "http://zero.webappsecurity.com/"
+  },
+  "screenshotsFolder": "cypress/screenshots",
+  "videosFolder": "cypress/videos",
+  "videoCompression": false,
+  "video": true,
+  "videoUploadOnPasses": true,
+  "trashAssertsBeforeRun": true,
+  "testFiles": "**/*.feature",
+  "projectId": "joq1nk"
 }

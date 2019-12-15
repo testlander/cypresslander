@@ -1,6 +1,8 @@
-import BasePage from "./BasePage";
+/// <reference types="Cypress" />
 
-class Validations extends BasePage
+//import BasePage from "./BasePage";
+
+export class Validations
 {
     validatePageTitle(expectedTitle) {
         cy.title().should('eq', expectedTitle);
@@ -11,4 +13,4 @@ class Validations extends BasePage
     }
 }
 
-export default Validations
+export const validations = new Validations();

@@ -1,6 +1,8 @@
-import BasePage from "./BasePage";
+/// <reference types="Cypress" />
 
-class HomePage extends BasePage
+//import BasePage from "./BasePage";
+
+export class HomePage
 {
     //--------------------------------------ELEMENTS--------------------------------------\\
 
@@ -36,4 +38,4 @@ class HomePage extends BasePage
 
 }
 
-export default HomePage;
+export const homePage = new HomePage();
