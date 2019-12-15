@@ -17,6 +17,7 @@
   "author": "Mehmet Mete Boyaci",
   "license": "ISC",
   "devDependencies": {
+    "@percy/cypress": "^2.2.0",
     "cypress": "^3.8.0",
     "cypress-cucumber-preprocessor": "^1.18.0",
     "cypress-dark": "^1.7.14",

@@ -1,8 +1,9 @@
 /// <reference types="Cypress" />
 
-import {Given, And, Then, When} from "cypress-cucumber-preprocessor/steps"
-import {homePage} from "../../../support/pages/HomePage"
-import {validations} from "../../../support/pages/Validations"
+import {Given, And, Then, When} from "cypress-cucumber-preprocessor/steps";
+import {homePage} from "../../../support/pages/HomePage";
+import {validations} from "../../../support/pages/Validations";
+import "@percy/cypress";
 
 
 Given('I visit Zero Bank web site', () =>{
@@ -24,6 +25,7 @@ And('I validate homepage tab names', () => {
             assert.equal(textValue, testData.homePageTabs[index]);
             })
     })
+})
 
 Given('I validate search option is visible', () => {
     homePage.getSearch().should('be.visible');
@@ -62,8 +64,11 @@ Then('I validate footer links', () => {
         })
     })
 })
- 
+
+Given('I take a screenshot of homepage', () => {
+    cy.percySnapshot();
 })
+
 
 //*************Data Table Usage*************\\
 Given('I login as following', dataTable => {
